@@ -20,7 +20,68 @@
         .ct  {
             text-align: center;
             color: antiquewhite;
+            position: relative;
+            top: 21px;
         }
+
+        .fa-whatsapp:before {
+            content: "\f232";
+            content: "\f232";
+            position: relative;
+            left: 52px;
+        }
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+        .strong {
+            color: wheat;
+            position: relative;
+            left: 54px;
+            padding: 0px;
+            top: -16px;
+            width: 272px;
+        }
+        form input {
+            width: 95%;
+            height: 40px;
+            padding: 5px 8px;
+            border-radius: 8px;
+            /* margin: 10px auto; */
+        }
+        form textarea {
+            width: 95%;
+            height: 40px;
+            padding: 5px 8px;
+            border-radius: 8px;
+            /* margin: 10px auto; */
+            right: 0px;
+        }
+    
+        form button {
+            font-size: 24px;
+            height: 39px;
+            position: relative;
+            top: 10px;
+            right: -159px;
+            width: 100px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: antiquewhite;
+        }
+        hr {
+            
+            position: relative;
+            top: 11px;
+        }
+
+
+    
     </style>
 </head>
 <body>
@@ -38,9 +99,23 @@
         <img src="./img/IMG_4374 (3).jpg" alt="">
     </div>
     </div>
+    <h1>رأيك يهمنا</h1>
+    <form action="https://fabform.io/f/vmVrQld" method="post">
+        <input type="text" name="First Name" placeholder="Your  First Name" required >
+        <input type="text" name="Last Name" placeholder="Your Last Name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message here" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <hr>
 <div class="ct">
     <h3>Created by Ahmed Hagag</h3>
-    <h4>For Contact 01004774661</h4>
+    <h4>For Contact<div class="strong">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+         <a href="https://wa.me/0201004774661" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+             <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
+     </div></h4>
 </div>
 </body>
 </html>
